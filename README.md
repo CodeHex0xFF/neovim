@@ -1,0 +1,3 @@
+# neovim
+neovim config
+use new astronvim version ... ...
