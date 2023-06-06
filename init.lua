@@ -57,6 +57,15 @@ return {
         end,
         desc = "Close buffer",
       },
+      ["<leader>gg"] = {
+        function()
+          require("astronvim.utils").toggle_term_cmd "gitui"
+        end,
+        desc =
+        "ToggleTerm gitui" },
+      ["<leader>tl"] = { function() require("astronvim.utils").toggle_term_cmd "gitui" end, desc = "ToggleTerm gitui" },
+      ["<leader>tn"] = { function() require("astronvim.utils").toggle_term_cmd "joshuto" end, desc = "ToggleTerm joshuto" },
+      ["<leader>tu"] = { function() require("astronvim.utils").toggle_term_cmd "btop" end, desc = "ToggleTerm btop" },
     },
   },
   options = {
