@@ -13,6 +13,7 @@ return {
     {
       "folke/todo-comments.nvim",
       dependencies = { "nvim-lua/plenary.nvim" },
+      as = "todo",
       opts = {
         signs = true,      -- show icons in the signs column
         sign_priority = 8, -- sign priority
@@ -135,8 +136,10 @@ return {
       ["<leader>tl"] = { function() require("astronvim.utils").toggle_term_cmd "gitui" end, desc = "ToggleTerm gitui" },
       ["<leader>tn"] = { function() require("astronvim.utils").toggle_term_cmd "joshuto" end, desc = "ToggleTerm joshuto" },
       ["<leader>tu"] = { function() require("astronvim.utils").toggle_term_cmd "btop" end, desc = "ToggleTerm btop" },
-      ["<leader>t]"] = { function() require("todo-comments").jump_next() end, desc = "Todo Next" },
-      ["<leader>t["] = { function() require("todo-comments").jump_prev() end, desc = "Todo Perv" },
+      ["<leader>td"] = { function()
+        require("todo-comments").enable()
+        vim.cmd("TodoTelescope")
+      end, desc = "Todo highlight" },
     },
   },
   options = {
