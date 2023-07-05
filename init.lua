@@ -12,7 +12,6 @@ return {
         TelescopeBorder = { fg = bg_alt, bg = bg },
         TelescopeNormal = { bg = bg },
         TelescopePreviewBorder = { fg = bg, bg = bg },
-
         TelescopePreviewNormal = { bg = bg },
         TelescopePreviewTitle = { fg = bg, bg = green },
         TelescopePromptBorder = { fg = bg_alt, bg = bg_alt },
