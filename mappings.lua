@@ -9,17 +9,24 @@ return {
       desc = "Close buffer",
     },
     ["<leader>gg"] = {
-      function()
-        require("astronvim.utils").toggle_term_cmd "gitui"
-      end,
-      desc =
-      "ToggleTerm gitui" },
-    ["<leader>tl"] = { function() require("astronvim.utils").toggle_term_cmd "gitui" end, desc = "ToggleTerm gitui" },
-    ["<leader>tn"] = { function() require("astronvim.utils").toggle_term_cmd "joshuto" end, desc = "ToggleTerm joshuto" },
+      function() require("astronvim.utils").toggle_term_cmd "lazygit" end,
+      desc = "ToggleTerm lazygit",
+    },
+    ["<leader>tl"] = {
+      function() require("astronvim.utils").toggle_term_cmd "lazygit" end,
+      desc = "ToggleTerm lazygit",
+    },
+    ["<leader>tn"] = {
+      function() require("astronvim.utils").toggle_term_cmd "joshuto" end,
+      desc = "ToggleTerm joshuto",
+    },
     ["<leader>tu"] = { function() require("astronvim.utils").toggle_term_cmd "btop" end, desc = "ToggleTerm btop" },
-    ["<leader>td"] = { function()
-      require("todo-comments").enable()
-      vim.cmd("TodoTelescope")
-    end, desc = "Todo highlight" },
+    ["<leader>td"] = {
+      function()
+        require("todo-comments").enable()
+        vim.cmd "TodoTelescope"
+      end,
+      desc = "Todo highlight",
+    },
   },
 }
