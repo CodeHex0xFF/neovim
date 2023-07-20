@@ -21,12 +21,5 @@ return {
       desc = "ToggleTerm joshuto",
     },
     ["<leader>tu"] = { function() require("astronvim.utils").toggle_term_cmd "btop" end, desc = "ToggleTerm btop" },
-    ["<leader>td"] = {
-      function()
-        require("todo-comments").enable()
-        vim.cmd "TodoTelescope"
-      end,
-      desc = "Todo highlight",
-    },
   },
 }
