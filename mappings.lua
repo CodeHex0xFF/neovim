@@ -8,14 +8,6 @@ return {
       end,
       desc = "Close buffer",
     },
-    ["<leader>gg"] = {
-      function() require("astronvim.utils").toggle_term_cmd "lazygit" end,
-      desc = "ToggleTerm lazygit",
-    },
-    ["<leader>tl"] = {
-      function() require("astronvim.utils").toggle_term_cmd "lazygit" end,
-      desc = "ToggleTerm lazygit",
-    },
     ["<leader>tn"] = {
       function() require("astronvim.utils").toggle_term_cmd "joshuto" end,
       desc = "ToggleTerm joshuto",
