@@ -23,5 +23,5 @@ return {
         TelescopeResultsTitle = { fg = bg, bg = bg },
       }
     end,
-  }
+  },
 }
