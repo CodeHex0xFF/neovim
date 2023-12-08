@@ -1,0 +1,38 @@
+"set plugins
+set easymotion
+set sneak
+set quickscope
+set NERDTree
+set surround
+set nu
+set relativenumber
+set which-key
+
+"set leader Key
+let mapleader = "\<space>"
+
+"normal mode
+map <leader>dd <Action>(Debug)
+map <leader>bb <Action>(ToggleLineBreakpoint)
+map gh <Action>(ShowErrorDescription)
+map gd <Action>(FindUsages)
+map ga <Action>(GotoAction)
+map <leader>f <Action>(SearchEverywhere)
+map <leader>e :NERDTree <CR>
+map <leader>s :w \| action ReformatCode<CR>
+
+"insert mode
+inoremap jj <ESC>
+
+"windows
+nnoremap <leader>ww <C-W>w
+nnoremap <leader>wd <C-W>c
+nnoremap <leader>wj <C-W>j
+nnoremap <leader>wk <C-W>k
+nnoremap <leader>wh <C-W>h
+nnoremap <leader>wl <C-W>l
+nnoremap <leader>ws <C-W>s
+
+"tool bar
+nnoremap <S-Tab> :tabn<CR>
+noremap <C-r> :action Run<CR>
