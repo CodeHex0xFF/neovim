@@ -21,10 +21,10 @@ return {
   /usr/bin/**/clang-*,/bin/clang,
   /bin/clang++,/usr/bin/gcc,
   /usr/bin/g++,
-  /opt/sdk/aarch64/gcc-11/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++,
-  /opt/sdk/aarch64/gcc-11/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc,
-  /opt/sdk/arm/arm-zynq-linux-gnueabihf_sdk-buildroot/bin/arm-zynq-linux-gnueabihf-g++,
-  /opt/sdk/arm/arm-zynq-linux-gnueabihf_sdk-buildroot/bin/arm-zynq-linux-gnueabihf-gcc,
+  /opt/sdk/gcc-arm-8.3-arm-armv5t-linux-gnueabi/bin/arm-armv5t-linux-gnueabi-gcc
+  /opt/sdk/gcc-arm-8.3-arm-armv5t-linux-gnueabi/bin/arm-armv5t-linux-gnueabi-g++
+  /opt/sdk/arm/arm-xilinx/lin/bin/arm-xilinx-linux-gnueabi-gcc
+  /opt/sdk/arm/arm-xilinx/lin/bin/arm-xilinx-linux-gnueabi-g++
   /opt/petalinux/2019.2/sysroots/x86_64-petalinux-linux/usr/bin/arm-xilinx-linux-gnueabi/arm-xilinx-linux-gnueabi-g++,
   /opt/petalinux/2021.2/sysroots/x86_64-petalinux-linux/usr/bin/aarch64-xilinx-linux/aarch64-xilinx-linux-g++,
   /opt/petalinux/2019.2/sysroots/x86_64-petalinux-linux/usr/bin/arm-xilinx-linux-gnueabi/arm-xilinx-linux-gnueabi-gcc,
