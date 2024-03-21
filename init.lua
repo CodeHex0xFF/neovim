@@ -1,3 +1,6 @@
+local neovide_config = require"user.neovide"
+neovide_config.setup()
+
 return {
   colorscheme = "onedark",
   highlights = {
