@@ -41,3 +41,5 @@ curl -sfL https://raw.githubusercontent.com/ducaale/xh/master/install.sh | sh
 cargo instal procs
 sudo apt instal btop
 cargo install --git https://github.com/kamiyaa/joshuto.git --force
+sudo apt install bsdtar
+cargo install termscp

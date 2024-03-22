@@ -13,8 +13,6 @@ return {
       desc = "ToggleTerm joshuto",
     },
     ["<leader>tu"] = { function() require("astronvim.utils").toggle_term_cmd "btop" end, desc = "ToggleTerm btop" },
-    ["<leader>BB"] = { function() require("astronvim.utils").toggle_term_cmd "tasks build" end, desc = "Task build" },
-    ["<leader>BC"] = { function() require("astronvim.utils").toggle_term_cmd "tasks clean" end, desc = "Task clean" },
-    ["<leader>BS"] = { function() require("astronvim.utils").toggle_term_cmd "tasks setup" end, desc = "Task setup" },
+    ["<leader>ts"] = { function() require("astronvim.utils").toggle_term_cmd "termscp" end, desc = "ToggleTerm btop" },
   },
 }
